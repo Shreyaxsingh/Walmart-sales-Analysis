@@ -9,21 +9,21 @@ df = pd.read_csv('walmart_sales.csv')
 
 df.shape
 
-# Info about columns and types
+
 df.info()
 
-# Summary statistics
+
 df.describe()
 
-# Check for missing values
+
 df.isnull().sum()
 
-# Unique values per column
+
 df.nunique()
 df['Date'] = pd.to_datetime(df['Date'], dayfirst=True)
 
 
-# Optional renaming
+
 df.rename(columns={'Weekly_Sales': 'WeeklySales'}, inplace=True)
 
 plt.figure(figsize=(14, 6))
@@ -63,16 +63,16 @@ df.head()
 df.index
 
 
-# %%
+
 import sqlite3
 
-# Connect to SQLite (or create one)
+
 conn = sqlite3.connect('walmart_sales.db')
 
-# Push DataFrame into a SQL table
+
 df.to_sql('sales', conn, if_exists='replace', index=False)
 
-# Query example
+
 query = """
 SELECT Store, AVG(WeeklySales) as AvgSales
 FROM sales
