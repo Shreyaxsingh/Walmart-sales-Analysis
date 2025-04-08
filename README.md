@@ -7,3 +7,12 @@ Tools & Technologies
 	•	Microsoft Excel (initial exploration)
 	•	VS Code
 	•	Git & GitHub
+Project Objectives
+	•	Clean and preprocess raw Walmart sales data
+	•	Derive insights on sales trends
+	•	Create visual dashboards to summarize findings
+ Author
+
+Shreya Singh
+Aspiring Data Analyst | Python & SQL Learner | Passionate about turning data into stories
+LinkedIn https://www.linkedin.com/in/shreya-singh-9087a3209?
