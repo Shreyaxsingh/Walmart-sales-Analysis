@@ -19,6 +19,7 @@ Project Objectives
 •	Create visual dashboards to summarize findings
 
 Author
+
 Shreya Singh 
 Aspiring Data Analyst | Python & SQL Learner | Passionate about turning data into stories
 LinkedIn https://www.linkedin.com/in/shreya-singh-9087a3209?
